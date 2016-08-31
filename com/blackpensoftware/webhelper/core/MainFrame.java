@@ -1,5 +1,7 @@
 package com.blackpensoftware.webhelper.core;
 
+import java.awt.Font;
+
 import javax.swing.BoxLayout;
 import javax.swing.ImageIcon;
 import javax.swing.JFrame;

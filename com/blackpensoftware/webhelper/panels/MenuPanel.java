@@ -44,19 +44,19 @@ public class MenuPanel extends JPanel {
 	}
 
 	public void setupColorButton() {
-		colors.setPreferredSize(new Dimension(150, 150));
+		colors.setPreferredSize(new Dimension(150, 35));
 		colors.setToolTipText("This button displays the colors that are approved for design work");
 		colors.setVisible(true);
 	}
 
 	public void setupFileGenButton() {
-		fileGen.setPreferredSize(new Dimension(150, 150));
+		fileGen.setPreferredSize(new Dimension(150, 35));
 		fileGen.setToolTipText("This button allows for the creation of a new file that is a copy of the master file");
 		fileGen.setVisible(true);
 	}
 
 	public void setupColorPickerButton() {
-		colorPicker.setPreferredSize(new Dimension(150, 150));
+		colorPicker.setPreferredSize(new Dimension(150, 35));
 		colorPicker.setToolTipText("This button displays a color picker to assist with design");
 		colorPicker.setVisible(true);
 	}
