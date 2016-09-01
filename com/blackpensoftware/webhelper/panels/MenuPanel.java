@@ -21,10 +21,11 @@ public class MenuPanel extends JPanel {
 	JButton colorPicker = new JButton("Color Picker");
 
 	ColorPanel colorPanel = new ColorPanel();
-	FileGenPanel fileGenPanel = new FileGenPanel();
+	FileGenPanel fileGenPanel;
 	ColorPickerPanel colorPickerPanel = new ColorPickerPanel();
 	
 	public MenuPanel(MainFrame panel) {
+		fileGenPanel = new FileGenPanel(panel);
 		this.setLocation(0, 0);
 		this.setMaximumSize(new Dimension(WebHelper.width, 300));
 		this.setBackground(foregroundColor);
